@@ -1,0 +1,32 @@
+/* Electronics palette: PCB green, graphite, silver glass, copper signals. */
+html[data-theme=light]{background:#a7b6ad;color:#273830;--green:#386454;--line:#c2d0c6}
+[data-theme=light] body{background:radial-gradient(ellipse at 14% 12%,#e5e9dfb3,transparent 46%),linear-gradient(125deg,#bbc6bb,#98afa1 38%,#c9d1c5 66%,#a8b9ad);background-attachment:fixed}
+[data-theme=light] .app-frame{background:linear-gradient(135deg,#fbfff84d,#f5f9f22b 55%,#ffffff38);border:1px solid #ffffffc9;backdrop-filter:blur(15px) saturate(105%);-webkit-backdrop-filter:blur(15px) saturate(105%);box-shadow:0 18px 50px #253e3026}
+[data-theme=light] header h1{color:#293c32}[data-theme=light] header h1::before{color:#527d66}
+[data-theme=light] .help{background:#ffffff25;border-color:#ffffff91;color:#455f50}
+[data-theme=light] .mode-tabs{background:#274b3712;border-color:#ffffff66}[data-theme=light] .mode-tabs button{color:#4d6557}[data-theme=light] .mode-tabs button[aria-pressed=true]{background:#ffffff70;color:#244b38;border:1px solid #ffffffaa}
+[data-theme=light] .settings label,[data-theme=light] .carry{color:#435d4e}[data-theme=light] .settings select,[data-theme=light] .example-row select{background:#ffffff2e;border-color:#ffffffa0;color:#2e4c3c}
+[data-theme=light] .settings select:focus,[data-theme=light] .example-row select:focus,[data-theme=light] select option{background:#eff4ed;color:#2a4334}
+[data-theme=light] .screen{background:linear-gradient(120deg,#f2f9ee40,#dfeadb26);border-color:#ffffffb8;backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);box-shadow:none}
+[data-theme=light] #display{color:#203e2c;caret-color:#40654c}[data-theme=light] .screen-top,[data-theme=light] #expression{color:#4b6655}
+[data-theme=light] .keypad button,[data-theme=light] .hex-keys button{background:#ffffff32;border:1px solid #ffffffb0;color:#293f32;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);box-shadow:none}
+[data-theme=light] .keypad small{color:#526b59}[data-theme=light] .keypad .utility{background:#eef4e82c;color:#45614e;border-color:#ffffff87}
+[data-theme=light] .keypad .operator{background:#bed5c442;color:#2f5841;border-color:#e9f7e7a3}[data-theme=light] .keypad .operator small{color:#446950}
+[data-theme=light] .keypad .equals{background:#38634ccb;color:#fff;border-color:#d0e9d7b0}[data-theme=light] .keypad .equals small{color:#edf8ee}
+[data-theme=light] .operation-strip>button,[data-theme=light] .example-row button{background:#e1efe02f;border-color:#ffffff99;color:#385b44}
+[data-theme=light] .message{background:#f5fbf024;border-color:#ffffff44;color:#405c48}[data-theme=light] .carry input{accent-color:#406e53}
+[data-theme=light] .bottom-actions,[data-theme=light] #exampleStatus{color:#48654f}[data-theme=light] .bottom-actions button{color:#325c40}
+[data-theme=light] #exampleStatus.pass{color:#285d39}[data-theme=light] #exampleStatus.fail{color:#8e4033}[data-theme=light] .message.error{background:#f3ded3bf;border-color:#bc8b71;color:#833f2c}
+[data-theme=light] button:hover:not(:disabled){background-color:#ffffff68}[data-theme=light] .keypad button:active:not(:disabled),[data-theme=light] .hex-keys button:active:not(:disabled){background:#d5e8d766}
+[data-theme=light] .keypad .equals:hover:not(:disabled){background:#2e573f}[data-theme=light] .keypad .equals:active:not(:disabled){background:#244832}
+[data-theme=light] button:focus-visible,[data-theme=light] select:focus-visible,[data-theme=light] input:focus-visible{outline-color:#446f53}
+[data-theme=light] .circuit-wire{stroke:#65836b;opacity:.3}[data-theme=light] .data-pulse{stroke:#a87546}[data-theme=light] .data-pulse.p2{stroke:#bb8d56}[data-theme=light] .data-pulse.p3{stroke:#648d74}
+[data-theme=light] .bg-component,[data-theme=light] .bg-chip-core,[data-theme=light] .demo-memory{fill:#f0f5e919;stroke:#617e655c}
+[data-theme=light] .bg-chip-number,[data-theme=light] .bg-label,[data-theme=light] .bg-small,[data-theme=light] .demo-value{fill:#456c51}
+[data-theme=light] .math-note,[data-theme=light] .math-note span,[data-theme=light] .bg-caption{color:#53725a}
+[data-theme=light] .bg-node{fill:#c2b391;stroke:#9c794f77}[data-theme=light] .stage-lights rect{fill:#eaf3e42b;stroke:#6d8a654a}[data-theme=light] .stage-lights rect.active{fill:#b1cfa380;stroke:#6e916296}[data-theme=light] .stage-lights text{fill:#426249}
+[data-theme=light] .alu-active .bg-component{fill:#c6dfb64d;stroke:#719a6788}[data-theme=light] .alu-active #demoAlu{fill:#3c6545}[data-theme=light] .chip-halo{stroke:#6e947733}
+[data-theme=light] dialog{background:#f0f5edeb;color:#314e3c;border-color:#fff}[data-theme=light] dialog button{background:#406951;border-color:#a0ba9c;color:#fff}
+[data-theme=light] .flag{background:#edf4e778;border-color:#c1d1ba;color:#405c3c}[data-theme=light] .flag.set{background:#c2dab880;color:#376237}[data-theme=light] pre{background:#dcead56e;color:#42603b}
+@media(max-width:600px){[data-theme=light] .app-frame{background:linear-gradient(135deg,#ffffff56,#f2f8eb32);backdrop-filter:blur(13px);-webkit-backdrop-filter:blur(13px)}}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){[data-theme=light] .app-frame{background:#eaf1e7f2}}
